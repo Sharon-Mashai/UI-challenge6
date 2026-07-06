@@ -2,6 +2,7 @@ import React from 'react'
 import fruitsalad from '../assets/images/fruitsalad.png'
 
 export const Text = () => {
+    
   return (
     <section className="txt">
 
@@ -19,16 +20,13 @@ export const Text = () => {
 
         <h3> BEST HEALTHY SALAD SERVED IN PUT RESTUARANT</h3>
 
-        <button>
-          Learn More
-        </button>
+        <button> LEARN MORE </button>
 
       </div>
 
       <div className="heroImage">
 
-        <img src={fruitsalad}  alt="Healthy Salad"
-        />
+        <img src={fruitsalad}  alt="Healthy Salad" />
 
       </div>
 
