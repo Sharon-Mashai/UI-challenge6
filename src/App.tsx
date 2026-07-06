@@ -5,6 +5,7 @@ import "./global.css";
 import { OrangeBenefit } from "./components/OrangeBenefit";
 import { ProductSection } from "./components/ProductSection";
 import { ImagineSection } from "./components/ImagineSection";
+import { MenuBenefit } from "./components/MenuBenefit";
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
        <OrangeBenefit/>
        <ProductSection/>
        <ImagineSection/>
+       <MenuBenefit/>
     
     </div>
 

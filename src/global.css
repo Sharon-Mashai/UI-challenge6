@@ -1,8 +1,9 @@
 *{
-    margin:0;
+    margin: 20px;;
     padding:0;
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
+
 }
 
 body {
@@ -13,14 +14,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     min-height: 100vh;
 }
 
 .app{
     width:1200px;
     margin:40px auto;
-    background:#23292d;
+    background:transparent;
     color:white;
     border-radius:20px;
     overflow:hidden;
@@ -31,6 +31,7 @@ body {
     justify-content:space-between;
     align-items:center;
     padding:30px 60px;
+    background-color:#23292d;
 }
 
 .logo{
@@ -67,6 +68,9 @@ body {
     align-items:center;
     padding:60px;
     background-color:#222;
+    background-image: url('../src/assets/images/fruitsalad.png');
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .text{
@@ -236,6 +240,7 @@ body {
     gap:30px;
     padding:60px;
     align-items:center;
+    background-color: #23292d;
 
 }
 
@@ -251,6 +256,7 @@ body {
 
     font-size:52px;
     line-height:65px;
+    color: white;
 
 }
 
@@ -293,5 +299,91 @@ body {
     padding:12px 28px;
     border-radius:30px;
     cursor:pointer;
+
+}
+.menuBenefit{
+
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap:50px;
+    align-items:start;
+    padding:80px;
+    background-color: #23292d;
+
+}
+
+.menuCenter{
+
+    text-align:center;
+
+}
+
+.menuItems{
+
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    margin-top:40px;
+
+}
+
+.menuItem{
+
+    text-align:center;
+
+}
+
+.menuItem img{
+
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    margin-bottom:15px;
+
+}
+
+.menuItem h4{
+
+    margin-bottom:10px;
+    font-size:18px;
+
+}
+
+.menuItem p{
+
+    color:#cfcfcf;
+    font-size:14px;
+    line-height:1.6;
+
+}
+.openingHours{
+
+    background:#2b3136;
+
+}
+
+.openingHours h3{
+
+    font-size:28px;
+
+}
+
+.hours{
+
+    display:flex;
+
+}
+
+.openingHours hr{
+
+    border:none;
+    border-top:1px solid rgba(255,255,255,.2);
+}
+
+.quickLinks{
+
+    margin:0;
+    font-size:24px;
+    font-weight:600;
 
 }

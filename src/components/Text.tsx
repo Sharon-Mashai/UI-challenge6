@@ -24,12 +24,6 @@ export const Text = () => {
 
       </div>
 
-      <div className="heroImage">
-
-        <img src={fruitsalad}  alt="Healthy Salad" />
-
-      </div>
-
     </section>
   )
 }

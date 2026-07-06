@@ -13,7 +13,6 @@ export const Header = () => {
         <a href="#">Contact</a>
       </nav>
 
-      <button>Sign In</button>
     </header>
   );
 };
