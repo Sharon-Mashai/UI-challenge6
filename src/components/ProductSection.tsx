@@ -12,19 +12,19 @@ export const ProductSection = () => {
       <ProductCard
         image={orangefruit}
         title="ARCU VOLUT FAT VITAE"
-        description="Healthy vegetables mixed with fresh ingredients."
+        description="Phestiers 1geart"
       />
 
       <ProductCard
         image={orange}
         title="$19,99,90,99E"
-        description="Natural orange juice packed with vitamins."
+        description="Orviste past bronps"
       />
 
       <ProductCard
         image={berrysalad}
         title="SFIELY TUN DRENARD"
-        description="A delicious combination of seasonal fruits."
+        description="Ongand suniers"
       />
 
     </section>
