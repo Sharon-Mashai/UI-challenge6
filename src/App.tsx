@@ -4,6 +4,7 @@ import { Text} from "./components/Text";
 import "./global.css";
 import { OrangeBenefit } from "./components/OrangeBenefit";
 import { ProductSection } from "./components/ProductSection";
+import { ImagineSection } from "./components/ImagineSection";
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
        <Text/>
        <OrangeBenefit/>
        <ProductSection/>
+       <ImagineSection/>
     
     </div>
 
