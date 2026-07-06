@@ -1,8 +1,16 @@
 import React from 'react'
+
+import cherries from '../assets/images/cherries.png'
+import menu1 from '../assets/images/menu1.png'
+import menu2 from '../assets/images/menu2.png'
+import menu3 from '../assets/images/menu3.png'
+
 import { MenuItem } from './MenuItem'
 
 export const MenuBenefit = () => {
+
   return (
+
     <section className="menuBenefit">
 
       {/* Left */}
@@ -10,82 +18,104 @@ export const MenuBenefit = () => {
       <div className="menuImage">
 
         <img
-          src="/images/cherries.png"
-          alt="Cherries"
+          src={cherries}
+          alt="Fresh Cherries"
         />
 
       </div>
 
-      {/* Middle */}
+      {/* Center */}
 
       <div className="menuCenter">
 
-        <p className="smallHeading">
-          Our Menu Benefit
+        <p className="sectionTitle">
+
+          OUR MENU BENEFIT
+
         </p>
 
         <div className="menuItems">
 
           <MenuItem
-            image="/images/menu1.png"
+            image={menu1}
             title="Fresh Salad"
-            description="Fresh vegetables with natural dressing."
+            description="Fresh vegetables served daily."
           />
 
           <MenuItem
-            image="/images/menu2.png"
+            image={menu2}
             title="Healthy Juice"
-            description="Rich in vitamins and antioxidants."
+            description="Natural fruit juice."
           />
 
           <MenuItem
-            image="/images/menu3.png"
+            image={menu3}
             title="Fruit Bowl"
-            description="Seasonal fruits served fresh."
+            description="Seasonal fresh fruits."
           />
 
         </div>
 
       </div>
-{/* Right */}
 
-<div className="openingHours">
+      {/* Right */}
 
-    <h3>Opening Hours</h3>
+      <div className="openingHours">
 
-    <div className="hours">
-        <p>Monday</p>
-        <p>09:00 - 20:00</p>
-    </div>
+        <h3>Opening Hours</h3>
 
-    <div className="hours">
-        <span>Tuesday</span>
-        <span>09:00 - 20:00</span>
-    </div>
+        <div className="hours">
 
-    <div className="hours">
-        <span>Wednesday</span>
-        <span>09:00 - 20:00</span>
-    </div>
+          <span>Monday</span>
 
-    <div className="hours">
-        <span>Thursday</span>
-        <span>09:00 - 20:00</span>
-    </div>
-
-    <div className="hours">
-        <span>Friday</span>
-        <span>09:00 - 22:00</span>
-    </div>
-
-    <hr />
-
-    <h3 className="quickLinks">
-        QUICK LINKS
-    </h3>
+          <span>09:00 - 20:00</span>
 
         </div>
 
+        <div className="hours">
+
+          <span>Tuesday</span>
+
+          <span>09:00 - 20:00</span>
+
+        </div>
+
+        <div className="hours">
+
+          <span>Wednesday</span>
+
+          <span>09:00 - 20:00</span>
+
+        </div>
+
+        <div className="hours">
+
+          <span>Thursday</span>
+
+          <span>09:00 - 20:00</span>
+
+        </div>
+
+        <div className="hours">
+
+          <span>Friday</span>
+
+          <span>09:00 - 22:00</span>
+
+        </div>
+
+        <hr />
+
+        <h3 className="quickLinks">
+
+          QUICK LINKS
+
+        </h3>
+
+      </div>
+
     </section>
+
   )
+
 }

@@ -1,12 +1,17 @@
 import React from 'react'
 
 interface MenuItemProps{
+
     image:string
+
     title:string
+
     description:string
+
 }
 
 export const MenuItem = ({image,title,description}:MenuItemProps) => {
+
   return (
 
     <div className="menuItem">
@@ -23,4 +28,5 @@ export const MenuItem = ({image,title,description}:MenuItemProps) => {
     </div>
 
   )
+
 }

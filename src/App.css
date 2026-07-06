@@ -1,0 +1,9 @@
+.app{
+
+    width: min(95%, 1400px);
+    margin: 40px auto;
+    background: #23292d;
+    border-radius: 25px;
+    overflow: hidden;
+
+}

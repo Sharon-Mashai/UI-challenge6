@@ -1,33 +1,56 @@
 import React from 'react'
+
 import orangecut from '../assets/images/orangecut.png'
 import orangejuice from '../assets/images/orangejuice.png'
 
 export const OrangeBenefit = () => {
   return (
+
     <section className="orangeBenefit">
 
-      <div className="orangeText">
+      <div className="orangeLeft">
 
-        <h2>Orange Benefit</h2>
+        <h2>
+          Orange Benefit
+        </h2>
 
-         <div className="orangecut">
+        <div className="orangeInfo">
 
-        <img src={orangecut} alt="Orange cut in half"/>
+          <img
+            src={orangecut}
+            alt="Orange"
+          />
+
+          <div>
+
+            <p>
+              Jus1 reogine eseds and summer
+            </p>
+
+            <p>
+              in golled quasiunp.
+            </p>
+
+            <button>
+              Learn More
+            </button>
+
+          </div>
+
+        </div>
 
       </div>
 
-        <p>Jus1 reogine eseds and summer in golled quasiunp</p>
+      <div className="orangeRight">
 
-        <button>Learn More</button>
-
-      </div>
-
-      <div className="orangejuice">
-
-        <img src={orangejuice} alt="Orange Drink"/>
+        <img
+          src={orangejuice}
+          alt="Orange Juice"
+        />
 
       </div>
 
     </section>
+
   )
 }
