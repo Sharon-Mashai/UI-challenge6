@@ -1,4 +1,5 @@
 import React from 'react'
+import fruitsalad from '../assets/images/fruitsalad.png'
 
 export const Text = () => {
   return (
@@ -16,9 +17,7 @@ export const Text = () => {
           Dedelay
         </h1>
 
-        <h3>
-          Best Healthy Salad Served
-        </h3>
+        <h3> BEST HEALTHY SALAD SERVED IN PUT RESTUARANT</h3>
 
         <button>
           Learn More
@@ -28,9 +27,7 @@ export const Text = () => {
 
       <div className="heroImage">
 
-        <img
-          src="/images/hero.png"
-          alt="Healthy Salad"
+        <img src={fruitsalad}  alt="Healthy Salad"
         />
 
       </div>

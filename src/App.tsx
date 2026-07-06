@@ -2,6 +2,8 @@ import React from "react"
 import {Header} from "./components/Header";
 import { Text} from "./components/Text";
 import "./global.css";
+import { OrangeBenefit } from "./components/OrangeBenefit";
+import { ProductSection } from "./components/ProductSection";
 
 const App = () => {
 
@@ -10,6 +12,8 @@ const App = () => {
 
        <Header/> 
        <Text/>
+       <OrangeBenefit/>
+       <ProductSection/>
     
     </div>
 
