@@ -21,18 +21,18 @@ export const OrangeBenefit = () => {
             alt="Orange"
           />
 
-          <div>
+          <div className="orangeContent">
 
             <p>
-              Jus1 reogine eseds and summer
+              Jus1 reogine eseds and summer 
             </p>
 
             <p>
-              in golled quasiunp.
+               quasiunp.
             </p>
 
-            <button>
-              Learn More
+            <button  onClick={() => alert("Oranges contain potassium and flavonoids, which work together to regulate blood pressure and help lower LDL cholestero")}>
+              LEARN MORE
             </button>
 
           </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import fruitsalad from '../assets/images/fruitsalad.png'
 
 export const Hero = () => {
   return (
@@ -25,21 +24,19 @@ export const Hero = () => {
           IN OUR RESTAURANT
         </h3>
 
-        <button>
-          Learn More
+        <button onClick={() => alert("Welcome to our Restaurant. Thank you for your interest in our healthy meals. Continue browsing for more info")}>
+          LEARN MORE
         </button>
 
       </div>
 
-      <div className="heroImage">
+      <div className="signin">
 
-        <img
-          src={fruitsalad}
-          alt="Healthy Salad"
-        />
+        <button onClick={() => alert("Sign In Approved!")}>
+          SIGN IN
+        </button>
 
       </div>
-
     </section>
 
   )

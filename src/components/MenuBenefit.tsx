@@ -13,7 +13,7 @@ export const MenuBenefit = () => {
 
     <section className="menuBenefit">
 
-      {/* Left */}
+      {/* Left part*/}
 
       <div className="menuImage">
 
@@ -24,7 +24,7 @@ export const MenuBenefit = () => {
 
       </div>
 
-      {/* Center */}
+      {/* Center part*/}
 
       <div className="menuCenter">
 
@@ -38,79 +38,71 @@ export const MenuBenefit = () => {
 
           <MenuItem
             image={menu1}
-            title="Fresh Salad"
-            description="Fresh vegetables served daily."
+            title="FRESH"
+            description="Plays orand on inoorianties"
           />
 
           <MenuItem
             image={menu2}
-            title="Healthy Juice"
-            description="Natural fruit juice."
+            title="VITAMIN"
+            description="Nisoen non prcens"
           />
 
           <MenuItem
             image={menu3}
-            title="Fruit Bowl"
-            description="Seasonal fresh fruits."
+            title="ORE ANIC"
+            description="Towagelas weriuris "
           />
 
         </div>
 
       </div>
 
-      {/* Right */}
+      {/* Right Part */}
 
       <div className="openingHours">
 
-        <h3>Opening Hours</h3>
+        <h3>OPENING HOURS</h3>
 
         <div className="hours">
 
-          <span>Monday</span>
+          <span>Mondday</span>
 
-          <span>09:00 - 20:00</span>
+          <span>17.00 cm x17</span>
 
         </div>
 
         <div className="hours">
 
-          <span>Tuesday</span>
+          <span>Tlaueday</span>
 
-          <span>09:00 - 20:00</span>
-
-        </div>
-
-        <div className="hours">
-
-          <span>Wednesday</span>
-
-          <span>09:00 - 20:00</span>
+          <span>13.60 cm x17</span>
 
         </div>
 
         <div className="hours">
 
-          <span>Thursday</span>
+          <span>Wednsseday</span>
 
-          <span>09:00 - 20:00</span>
+          <span>19.00 km x11</span>
 
         </div>
 
         <div className="hours">
 
-          <span>Friday</span>
+          <span>Thaneday</span>
 
-          <span>09:00 - 22:00</span>
+          <span>13.00 cm x11</span>
 
         </div>
+
 
         <hr />
 
         <h3 className="quickLinks">
 
           QUICK LINKS
-
-        </h3>
+         </h3>
 
       </div>
 
