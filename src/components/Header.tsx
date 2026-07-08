@@ -1,5 +1,5 @@
 import React from 'react'
-import menu1 from '../assets/images/menu1.png'
+import logo from '../assets/images/logo.png'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Location03Icon } from '@hugeicons/core-free-icons'
 import { ShoppingCart02Icon } from '@hugeicons/core-free-icons'
@@ -11,7 +11,7 @@ export const Header = () => {
     <header className="header">
 
       <div className="logo">
-        <img src={menu1} alt="favicon" />
+        <img src={logo} alt="logo" />
       </div>
 
       <nav>
