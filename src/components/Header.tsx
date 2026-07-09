@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from '../assets/images/logo.png'
 import { HugeiconsIcon } from '@hugeicons/react'
 import { Location03Icon } from '@hugeicons/core-free-icons'

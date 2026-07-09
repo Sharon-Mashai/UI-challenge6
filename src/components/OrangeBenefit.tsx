@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import orangecut from '../assets/images/orangecut.png'
 import orangejuice from '../assets/images/orangejuice.png'

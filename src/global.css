@@ -21,8 +21,7 @@ img{
 
 .app{
 
-    width:min(92%,1320px);
-    margin:35px auto;
+   
     background:#23292d;
     border-radius:12px;
     overflow:hidden;

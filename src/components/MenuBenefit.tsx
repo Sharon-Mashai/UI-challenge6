@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import cherries from '../assets/images/cherries.png'
 import menu1 from '../assets/images/menu1.png'
