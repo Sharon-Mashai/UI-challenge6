@@ -10,15 +10,7 @@ h1,h2,h3{
 
 }
 
-body{
 
-    background:url("./assets/images/background.png");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-color:#efefef;
-
-}
 
 img{
 
@@ -54,8 +46,7 @@ img{
 .logo{
 
     size: 70px;
-    width: 30px;
-    background-color: rgb(35, 41, 45);
+    width: 150px;
 
 }
 
@@ -252,7 +243,7 @@ img{
 
 .orangeRight img{
 
-    width:100%;
+    width:80%;
 
 }
 
