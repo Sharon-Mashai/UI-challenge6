@@ -10,9 +10,12 @@ import { ImagineSection } from './components/ImagineSection'
 import { MenuBenefit } from './components/MenuBenefit'
 
 
+
+
 const App = () => {
 
   return (
+    <>
 
     <div className="app">
 
@@ -28,8 +31,12 @@ const App = () => {
 
       <MenuBenefit />
 
+      
+
 
     </div>
+  
+    </>
 
   )
 

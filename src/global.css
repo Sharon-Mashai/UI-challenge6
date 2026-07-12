@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
-    font-family:'Times New Roman', Times, serif;
+    /*box-sizing:border-box;*/
+    font-family:'Roboto Mono';
 }
 h1,h2,h3{
 
@@ -64,6 +66,7 @@ img{
     text-transform:uppercase;
     font-size:13px;
     text-align: left;
+    left: 30%;
 
 }
 
@@ -162,7 +165,6 @@ img{
     color:white;
     border:none;
     padding:15px 35px;
-    border-radius:40px;
     cursor:pointer;
     font-size:16px;
     font-weight:600;
