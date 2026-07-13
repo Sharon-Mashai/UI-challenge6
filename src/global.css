@@ -3,7 +3,7 @@
 *{
     margin:0;
     padding:0;
-    /*box-sizing:border-box;*/
+    box-sizing:border-box;
     font-family:'Roboto Mono';
 }
 h1,h2,h3{
@@ -25,7 +25,6 @@ img{
 
    
     background:#23292d;
-    border-radius:12px;
     overflow:hidden;
     color:white;
 
@@ -59,6 +58,7 @@ img{
 
 }
 
+
 .header nav a{
 
     color:white;
@@ -66,13 +66,14 @@ img{
     text-transform:uppercase;
     font-size:13px;
     text-align: left;
-    left: 30%;
+    
 
 }
 
 .headerButtons{
 
     display:flex;
+    
 
 }
 
@@ -307,9 +308,11 @@ img{
 
 .imagineText h2{
 
-    font-size:60px;
-    line-height:72px;
+    /*font-size:60px;
+    line-height:72px;*/
     font-weight:700;
+    font-size: 3.125rem;
+    width: 20rem;
 
 }
 
@@ -342,6 +345,7 @@ img{
     font-size:30px;
     letter-spacing:2px;
     margin-bottom:15px;
+    text-align: center;
 
 }
 
@@ -349,6 +353,8 @@ img{
 
     font-size:12px;
     margin-bottom:20px;
+    text-align: center;
+    border-bottom:2px solid rgba(193, 18, 18, 0.15);
 
 }
 
@@ -357,6 +363,7 @@ img{
     color:#666;
     line-height:1.5em;
     margin-bottom:25px;
+    border-bottom:3px solid rgba(255,255,255,.15);
 
 }
 
@@ -368,6 +375,7 @@ img{
     padding:14px 35px;
     cursor:pointer;
     transition: 3s;
+   
 
 }
 .benefitsCard button:hover{
@@ -447,9 +455,9 @@ img{
 
 .openingHours{
 
-    background:#2e3438;
+    border-left:1px solid rgba(255,255,255,.15);
     padding:35px;
-    border-radius:15px;
+    
 
 }
 
@@ -505,7 +513,7 @@ img{
 
 }
 /*Mobile*/
-@media(max-width:768px){
+@media(max-width:767px){
 
     .header{
 
@@ -517,7 +525,7 @@ img{
     .header nav{
 
         flex-wrap:wrap;
-        justify-content:center;
+        display: flex;
 
     }
 
@@ -540,6 +548,7 @@ img{
     .menuBenefit{
 
         padding:40px;
+        display: block;
 
     }
 

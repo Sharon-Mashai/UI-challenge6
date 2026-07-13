@@ -10,15 +10,7 @@ export const ImagineSection = () => {
 
       <div className="imagineText">
 
-        <h2>
-          Just imagine
-          <br />
-          seeds and
-          <br />
-          summer in gell
-          <br />
-          sunshine.
-        </h2>
+        <h2>Just imagine seeds and summer in gell sunshine.</h2>
 
       </div>
 
