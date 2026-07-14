@@ -24,10 +24,10 @@ export const Header = () => {
 
         <a href="#">Blog</a>
 
-        <a href="#">Contact</a>
+        <a href="#">Contact Us</a>
 
       </nav>
-      </div>
+      
 
       <div className="headerButtons">
 
@@ -42,6 +42,7 @@ export const Header = () => {
 
         </button>
 
+      </div>
       </div>
 
     </header>
