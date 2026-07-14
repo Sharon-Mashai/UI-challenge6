@@ -1,33 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://googleapis.com");
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Roboto Mono';
-}
-h1,h2,h3{
-
-    font-family:'Cormorant Garamond',serif;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.02em;
+}
 
 img{
-
     display:block;
     max-width:100%;
-
 }
 
 .app{
-
-   
     background:#23292d;
     overflow:hidden;
     color:white;
-
 }
 
 /* HEADER */
@@ -58,7 +52,9 @@ header{
     gap:30px;
 }
 
-.header nav a{
+.header nav a {   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color:white;
     text-decoration:none;
     text-transform:uppercase;
@@ -89,9 +85,7 @@ header{
 }
 
 /* HERO */
-
 .hero{
-
     display:grid;
     width: 100%;
     position: relative;
@@ -102,54 +96,45 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
-
 }
-
-.heroText h1{
-
-    font-size:86px;
-    line-height:82px;
+.heroText h1 {
+    font-weight: 750; 
+    font-size:98px;
+    line-height:0.9;
     margin:20px 0;
-
 }
-
-.heroText h3{
-
+.heroText h3 {
+    font-family: 'Open Sans', sans-serif; 
     margin-bottom:35px;
     line-height:1.7;
     font-weight:400;
-
 }
 
 .hero button{
-
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     background:#ff6b00;
     color:white;
     border:none;
-    padding:15px 38px;
+    padding:20px 15px;
     cursor:pointer;
     transition:.3s;
-
 }
-.hero button:hover{
 
+.hero button:hover{
     transform:translateY(-3px);
     background:#ff7c1c;
-
 }
 
 .heroImage{
-
     display:flex;
     justify-content:center;
-
 }
 
 .heroImage img{
-
     width:520px;
-
 }
 
 .signin{
@@ -159,63 +144,59 @@ header{
 }
 
 .signin button{
-
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
     background:#ff6b00;
     color:white;
     border:none;
-    padding:15px 35px;
+    padding:15px 20px;
     cursor:pointer;
     font-size:16px;
-    font-weight:600;
+    font-weight:700;
 }
 
 /* ORANGE BENEFIT */
-
 .orangeBenefit{
-
     display:grid;
     grid-template-columns:1.2fr 1fr;
     align-items:center;
     gap:40px;
     padding:40px 60px;
-    border-top:#1F262E
-
+    border-top:#1F262E;
 }
 
-.orangeLeft h2{
-
+.orangeLeft h2 {
+    font-weight: 700;
     font-size:58px;
     margin-bottom:40px;
     margin-top: -30px;
-
 }
 
 .orangeInfo{
-
     display:flex;
     gap:30px;
-    
-
 }
 
 .orangeInfo img{
-
     width:200px;
     height:auto;
-
+    
 }
+
 .orangeInfo div{
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
+
 .orangeContent{
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
 
-.orangeInfo p{
+.orangeInfo p {
+    font-weight: 300; 
     color:#cfcfcf;
     line-height:1.8;
     margin-bottom:10px;
@@ -223,112 +204,93 @@ header{
 }
 
 .orangeInfo button{
-
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     margin-top:35px;
-    padding:15px 35px;
+    padding:15px 25px;
     border:none;
     background:#ff6b00;
     color:white;
     cursor:pointer;
-    transition: 3s;
     width: 150px;
-
 }
-.orangeInfo button:hover{
 
+.orangeInfo button:hover{
     transform:translateY(-3px);
     background:#ff7c1c;
-
 }
 
 .orangeRight img{
-
     width:80%;
-
+    border-radius: 10px;
 }
 
 /* PRODUCT SECTION */
-
 .productSection{
-
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:25px;
     padding:30px 60px 60px;
-
 }
 
 .productCard{
-
     cursor:pointer;
     transition:.3s;
-
 }
 
 .productCard:hover{
-
     transform:translateY(-8px);
-
 }
 
 .productCard img{
-
     width:100%;
-
+    border-radius: 10px;
 }
 
 .productCard h3{
-
+    font-weight: 700;
     margin-top:18px;
     font-size:18px;
-
 }
 
 .productCard p{
-
     color:#bbbbbb;
     margin-top:8px;
     font-size:14px;
-
 }
+
 /* IMAGINE SECTION */
-
 .imagineSection{
-
     display:grid;
     grid-template-columns:1.3fr 1fr 1fr;
     gap:45px;
     align-items:center;
     padding:80px 60px;
-
 }
 
-
 .imagineText h2{
-
     font-weight:700;
     font-size: 3.125rem;
     width: 20rem;
-
+    line-height: 1.1;
 }
 
 .berryImage{
-
     display:flex;
     justify-content:center;
-
 }
 
 .berryImage img{
-
     width:500px;
-
+    border-radius: 10px;
 }
 
 .benefitsCard {
     background-color: white;
     color: black;
-    border-radius: 16px;
+    border-radius: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -336,25 +298,22 @@ header{
 }
 
 .benefitSmallTitle{
+    font-family: 'Montserrat', sans-serif;
     color: black;
     text-transform:uppercase;
     font-size:30px;
     letter-spacing:2px;
     text-align: center;
-    font-weight:600;
+    font-weight:800;
     margin-bottom:25px;
-
 }
 
-.benefitsCard h3{
-
-    
+.benefitsCard h3{ 
+    font-weight: 700;
     width: 350px;
     margin: 0 auto;
     text-align: center;
-    border-bottom: 2px solid rgb(148, 143, 143);
- 
-
+    border-bottom: 1.5px solid rgb(148, 143, 143);
 }
 
 .benefit-text{
@@ -362,11 +321,14 @@ header{
     align-items: center;
     width: 190px;
     margin-bottom:25px;
-    border-bottom: 2px solid rgb(124, 121, 121)
+    border-bottom: 1.5px solid rgb(124, 121, 121)
 }
 
 .benefitsCard button{
-
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     background:#ff6b00;
     color:white;
     border:none;
@@ -374,146 +336,114 @@ header{
     cursor:pointer;
     transition: 3s;
     align-items: center;
-   
-
 }
+
 .benefitsCard button:hover{
-
     transform:translateY(-3px);
-
     background:#ff7c1c;
-
 }
-/*MENU BENEFIT*/
 
+/*MENU BENEFIT*/
 .menuBenefit{
- 
     display:grid;
     grid-template-columns:1fr 2fr 1fr;
     gap:45px;
     align-items:center;
     padding:50px;
-
 }
 
 .menuImage{
-
     display:flex;
     justify-content:center;
-
 }
 
 .menuImage img{
-
     width:260px;
-
+    border-radius: 10px;
 }
 
 .menuCenter{
-
     text-align:center;
-
 }
 
 .menuItems{
-
     display:flex;
     justify-content:center;
     gap:30px;
     margin-top:40px;
-
 }
 
 .menuItem{
-
     width:170px;
-
 }
 
 .menuItem img{
-
     width:90px;
     margin:0 auto 20px;
-
+    
 }
 
 .menuItem h4{
-
+    font-weight: 700;
     margin-bottom:12px;
     font-size:18px;
-
 }
 
 .menuItem p{
-
+    font-weight: 300;
     color:#bdbdbd;
     line-height:1.6;
     font-size:14px;
-
 }
 
 .openingHours{
-
     border-left:1px solid rgba(255,255,255,.15);
     padding:35px;
-    
-
 }
 
 .openingHours h3{
-
+    font-weight: 700;
     margin-bottom:25px;
     font-size:20px;
-
 }
 
 .hours{
-
+    font-weight: 300;
     display:flex;
     justify-content:space-between;
     padding:12px;
     font-size:14px;
-
 }
 
 .openingHours hr{
-
     margin:30px;
     border:none;
     border-top:1px solid rgba(255,255,255,.15);
-
 }
 
 .quickLinks{
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
     margin:0;
     font-size:15px;
-
 }
+
 /*Media Queries*/
 @media(max-width:992px){
-
-    
     .orangeBenefit,
     .imagineSection,
     .menuBenefit{
-
         text-align:center;
-
     }
-
-
     .menuItems{
-
         justify-content:center;
         flex-wrap:wrap;
-
     }
-
 }
+
 /*Mobile*/
 @media (max-width:768px){
-
     .hamburger{
         display:block;
     }
@@ -559,5 +489,47 @@ header{
     .menuBenefit{
         display:block;
         padding:40px;
+    }
+}
+/* Laptops*/
+@media (min-width: 1024px) and (max-width: 1399px) {
+    .heroText h1 {
+        font-size: 76px;
+    }
+    .imagineSection {
+        gap: 25px;
+    }
+}
+
+/*Desktops*/
+@media (min-width: 1400px) {
+    .header, 
+    .hero,
+    .orangeBenefit, 
+    .productSection, 
+    .imagineSection, 
+    .menuBenefit {
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*Bigger Screens*/
+@media (min-width: 1920px) {
+    .header, 
+    .hero, 
+    .orangeBenefit, 
+    .productSection, 
+    .imagineSection, 
+    .menuBenefit {
+        max-width: 1620px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heroText h1 {
+        font-size: 115px;
+    }
+    .heroText h3 {
+        font-size: 20px;
     }
 }
