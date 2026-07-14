@@ -26,14 +26,14 @@ export const ImagineSection = () => {
       <div className="benefitsCard">
 
         <p className="benefitSmallTitle">
-         EBEE WOUS BENEFIT.
+         EBEE WOUS <br></br> BENEFIT.
         </p>
 
         <h3>
          With a variety, delicious, fresh and healthy
         </h3>
 
-        <p>
+        <p className='benefit-text'>
           FUOCROLL LO MOTION
         </p>
 

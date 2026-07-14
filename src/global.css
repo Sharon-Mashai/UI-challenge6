@@ -69,6 +69,9 @@ img{
     
 
 }
+.navLinks{
+    left: 50%;
+}
 
 .headerButtons{
 
@@ -203,7 +206,7 @@ img{
 
 .orangeInfo img{
 
-    width:200px;
+    width:250px;
     height:auto;
 
 }
@@ -227,13 +230,14 @@ img{
 
 .orangeInfo button{
 
-    margin-top:25px;
-    padding:13px 35px;
+    margin-top:35px;
+    padding:15px 35px;
     border:none;
     background:#ff6b00;
     color:white;
     cursor:pointer;
     transition: 3s;
+    width: 150px;
 
 }
 .orangeInfo button:hover{
@@ -308,8 +312,6 @@ img{
 
 .imagineText h2{
 
-    /*font-size:60px;
-    line-height:72px;*/
     font-weight:700;
     font-size: 3.125rem;
     width: 20rem;
@@ -329,42 +331,44 @@ img{
 
 }
 
-.benefitsCard{
-
-    background:white;
-    color:#222;
-    border-radius:16px;
-    padding:20px;
-
+.benefitsCard {
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .benefitSmallTitle{
-
-    color:#ff6b00;
+    color: black;
     text-transform:uppercase;
     font-size:30px;
     letter-spacing:2px;
-    margin-bottom:15px;
     text-align: center;
+    font-weight:600;
+    margin-bottom:25px;
 
 }
 
 .benefitsCard h3{
 
-    font-size:12px;
-    margin-bottom:20px;
+    
+    width: 350px;
+    margin: 0 auto;
     text-align: center;
-    border-bottom:2px solid rgba(193, 18, 18, 0.15);
+    border-bottom: 2px solid rgb(148, 143, 143);
+ 
 
 }
 
-.benefitsCard p{
-
-    color:#666;
+.benefit-text{
     line-height:1.5em;
+    align-items: center;
+    width: 190px;
     margin-bottom:25px;
-    border-bottom:3px solid rgba(255,255,255,.15);
-
+    border-bottom: 2px solid rgb(124, 121, 121)
 }
 
 .benefitsCard button{
@@ -375,6 +379,7 @@ img{
     padding:14px 35px;
     cursor:pointer;
     transition: 3s;
+    align-items: center;
    
 
 }
@@ -388,7 +393,7 @@ img{
 /*MENU BENEFIT*/
 
 .menuBenefit{
-
+ 
     display:grid;
     grid-template-columns:1fr 2fr 1fr;
     gap:45px;

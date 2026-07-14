@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
-
+      <div className='navLinks'>
       <nav>
 
         <a href="#">Home</a>
@@ -27,6 +27,7 @@ export const Header = () => {
         <a href="#">Contact</a>
 
       </nav>
+      </div>
 
       <div className="headerButtons">
 
