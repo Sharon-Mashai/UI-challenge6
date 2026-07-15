@@ -19,22 +19,25 @@ img{
 }
 
 .app{
-    background:#23292d;
+    background:#161a1d;
     overflow:hidden;
     color:white;
 }
 
 /* HEADER */
 header{
+    height:90px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 50px;
-    background:#23292d;
+    padding:0px 50px;
+    background:#1F262E;
 }
 
 .logo{
+    size: 70px;
     width:150px;
+    
 }
 
 .logo img{
@@ -80,10 +83,18 @@ header{
     background:none;
     border:none;
     color:white;
-    font-size:32px;
+    font-size:30px;
     cursor:pointer;
+    position: relative;
 }
-
+.close{
+    position: absolute;
+    right: 0;
+    background-color: #161a1d;
+    color: white;
+   
+    
+}
 /* HERO */
 .hero{
     display:grid;
@@ -118,7 +129,7 @@ header{
     background:#ff6b00;
     color:white;
     border:none;
-    padding:20px 15px;
+    padding:15px 38px;
     cursor:pointer;
     transition:.3s;
 }
@@ -149,7 +160,7 @@ header{
     background:#ff6b00;
     color:white;
     border:none;
-    padding:15px 20px;
+    padding:15px 25px;
     cursor:pointer;
     font-size:16px;
     font-weight:700;
@@ -162,7 +173,7 @@ header{
     align-items:center;
     gap:40px;
     padding:40px 60px;
-    border-top:#1F262E;
+    background:#24292e;
 }
 
 .orangeLeft h2 {
@@ -233,7 +244,12 @@ header{
     grid-template-columns:repeat(3,1fr);
     gap:25px;
     padding:30px 60px 60px;
+    
 }
+
+ .close{
+        display: none;
+    }
 
 .productCard{
     cursor:pointer;
@@ -268,6 +284,7 @@ header{
     gap:45px;
     align-items:center;
     padding:80px 60px;
+    background:#24292e;
 }
 
 .imagineText h2{
@@ -350,6 +367,7 @@ header{
     gap:45px;
     align-items:center;
     padding:50px;
+    background:#1e2226;
 }
 
 .menuImage{
@@ -431,6 +449,11 @@ header{
 
 /*Media Queries*/
 @media(max-width:992px){
+     .header{
+        gap:10px;
+        padding:30px;
+    }
+    
     .orangeBenefit,
     .imagineSection,
     .menuBenefit{
@@ -440,12 +463,19 @@ header{
         justify-content:center;
         flex-wrap:wrap;
     }
+    .hamburger{
+        display:none;
+    }
+   
 }
 
 /*Mobile*/
 @media (max-width:768px){
     .hamburger{
         display:block;
+    }
+    .close{
+        display: block;
     }
 
     .navLinks{
@@ -458,7 +488,13 @@ header{
         display:flex;
         flex-direction:column;
         align-items:center;
+        position: fixed;
         gap:20px;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #161a1d;
     }
 
     .header nav{
@@ -472,7 +508,9 @@ header{
 
     .header{
         flex-wrap:wrap;
+        padding: 20px;
     }
+    
 
     .hero{
         padding:30px;
@@ -491,45 +529,4 @@ header{
         padding:40px;
     }
 }
-/* Laptops*/
-@media (min-width: 1024px) and (max-width: 1399px) {
-    .heroText h1 {
-        font-size: 76px;
-    }
-    .imagineSection {
-        gap: 25px;
-    }
-}
 
-/*Desktops*/
-@media (min-width: 1400px) {
-    .header, 
-    .hero,
-    .orangeBenefit, 
-    .productSection, 
-    .imagineSection, 
-    .menuBenefit {
-        max-width: 1320px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-/*Bigger Screens*/
-@media (min-width: 1920px) {
-    .header, 
-    .hero, 
-    .orangeBenefit, 
-    .productSection, 
-    .imagineSection, 
-    .menuBenefit {
-        max-width: 1620px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .heroText h1 {
-        font-size: 115px;
-    }
-    .heroText h3 {
-        font-size: 20px;
-    }
-}

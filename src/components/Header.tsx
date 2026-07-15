@@ -1,10 +1,13 @@
 import {useState } from "react";
 import logo from "../assets/images/logo.png";
 import { HugeiconsIcon } from "@hugeicons/react";
-import {Location03Icon,ShoppingCart02Icon} from "@hugeicons/core-free-icons";
+import {Location03Icon,ShoppingCart02Icon, Menu07Icon, Cancel01Icon } from "@hugeicons/core-free-icons";
+
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
+
+  const toggleHumburger = ()=> setOpen(prev => !prev)
 
   return (
     <header className="header">
@@ -14,12 +17,13 @@ export const Header = () => {
       </div>
 
       {/* Hamburger Button */}
-      <button className="hamburger" onClick={() => setOpen(!open)}>
-          ☰
+      <button className="hamburger" onClick={toggleHumburger}>
+          <HugeiconsIcon icon={Menu07Icon} />
       </button>
 
       {/* Navigation */}
       <div className={`navLinks ${open ? "show" : ""}`}>
+        <button className="close" onClick={toggleHumburger}><HugeiconsIcon icon={Cancel01Icon} /></button>
 
         <nav>
           <a href="#">Home</a>
