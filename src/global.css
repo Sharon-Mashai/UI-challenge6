@@ -4,14 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Montserrat", sans-serif;
+font-family: "League Spartan", sans-serif;
   letter-spacing: -0.02em;
 }
 
@@ -65,7 +65,7 @@ header nav {
 }
 
 header nav a {
-  font-family: "Montserrat", sans-serif;
+ font-family: "League Spartan", sans-serif;
   font-weight: 700;
   color: white;
   text-decoration: none;
@@ -135,7 +135,7 @@ header nav a {
 }
 
 .signin button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "League Spartan", sans-serif;
   text-transform: uppercase;
   background: #e8570e;
   color: white;
@@ -173,7 +173,7 @@ header nav a {
 }
 
 .heroText h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-weight: 600;
   font-size: clamp(38px, 6vw, 105px); 
   line-height: 0.95;
@@ -184,7 +184,7 @@ header nav a {
 }
 
 .heroText h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "League Spartan", sans-serif;
   line-height: 1.4;
   font-weight: 400;
   font-size: 20px;
@@ -589,6 +589,28 @@ header nav a {
   .navLinks {
     display: none;
   }
+    .navLinks.show {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-color: #161a1d;
+        z-index: 999;
+        gap: 25px;
+    }
+
+    .navLinks.show header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navLinks.show .close {
+       display: block;
+       position: absolute;
+       top: 20px;
+       right: 20px;
+    }
 
    .hero {
     padding: 180px 40px 60px 40px;
