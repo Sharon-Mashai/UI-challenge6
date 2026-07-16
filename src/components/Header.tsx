@@ -8,7 +8,7 @@ export const Header = () => {
   const [open, setOpen] = useState(false);
 
   const toggleHumburger = ()=> setOpen(prev => !prev)
-
+     
   return (
     <header className="header">
 

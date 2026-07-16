@@ -10,7 +10,7 @@ export const ImagineSection = () => {
 
       <div className="imagineText">
 
-        <h2>Just imagine seeds and summer in gell sunshine.</h2>
+        <h2>Just imagine <br/> seeds and<br/> summer in gell <br/> sunshine.</h2>
 
       </div>
 
@@ -25,19 +25,22 @@ export const ImagineSection = () => {
 
       <div className="benefitsCard">
 
-        <p className="benefitSmallTitle">
-         EBEE WOUS <br></br> BENEFIT.
+        <h4 className="benefitSmallTitle">
+         EBEE WOUS 
+        </h4>
+        <p className='benefit-par'>
+           BENEFIT.
         </p>
 
         <h3>
-         With a variety, delicious, fresh and healthy
+         With a variety and delicious 
         </h3>
 
         <p className='benefit-text'>
           FUOCROLL LO MOTION
         </p>
 
-        <button  onClick={() => alert("Our chefs prepare fresh meals every day!")}>
+        <button className='benefitButton' onClick={() => alert("Our chefs prepare fresh meals every day!")}>
           HEAD MORE
         </button>
 

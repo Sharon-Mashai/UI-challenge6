@@ -99,10 +99,9 @@ export const MenuBenefit = () => {
 
         <hr />
 
-        <h3 className="quickLinks">
-
+        <p className="quickLinks">
           QUICK LINKS
-         </h3>
+         </p>
 
       </div>
 
