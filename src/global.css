@@ -11,7 +11,7 @@ h1,
 h2,
 h3,
 h4 {
-font-family: "League Spartan", sans-serif;
+  font-family: "League Spartan", sans-serif;
   letter-spacing: -0.02em;
 }
 
@@ -69,7 +69,7 @@ header nav {
 }
 
 header nav a {
- font-family: "League Spartan", sans-serif;
+  font-family: "League Spartan", sans-serif;
   font-weight: 700;
   color: white;
   text-decoration: none;
@@ -120,22 +120,21 @@ header nav a {
   grid-template-columns: 1.2fr 0.8fr;
   align-items: center;
   gap: 40px;
-  padding: 160px 80px 80px 80px; 
+  padding: 160px 80px 80px 80px;
   background-image: url("../src/assets/images/fruitsalad.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   min-height: 85vh;
   margin-top: 90px;
-  position: relative; 
+  position: relative;
 }
-
 
 .signin {
   position: absolute;
   top: 40px;
   right: 80px;
-  z-index: 5; 
+  z-index: 5;
 }
 
 .signin button {
@@ -152,7 +151,6 @@ header nav a {
   border-radius: 4px;
   transition: 0.3s;
 }
-
 
 .heroText {
   display: flex;
@@ -179,10 +177,10 @@ header nav a {
 .heroText h1 {
   font-family: "League Spartan", sans-serif;
   font-weight: 600;
-  font-size: clamp(38px, 6vw, 105px); 
+  font-size: clamp(38px, 6vw, 105px);
   line-height: 0.95;
   color: #ffffff;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
   position: relative;
   bottom: 70px;
 }
@@ -196,7 +194,7 @@ header nav a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   max-width: 360px;
-  margin-bottom: 45px; 
+  margin-bottom: 45px;
   position: relative;
   bottom: 60px;
 }
@@ -225,107 +223,101 @@ header nav a {
 
 /* ORANGE BENEFIT SECTION*/
 .orangeBenefit {
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    align-items: center;
-    gap: 40px;
-    padding: 20px 60px;
-    background: #24292e;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 60px;
+  background: #24292e;
 }
 
-
 .orangeLeft {
-    width: 100%;
+  width: 100%;
 }
 
 .orangeLeft h2 {
-    font-weight: 700;
-    font-size: clamp(32px, 4vw, 54px);
-    margin-bottom: 40px;
-    margin-top: 40px;
-    position: relative;
-    left: 60px;
-
+  font-weight: 700;
+  font-size: clamp(32px, 4vw, 54px);
+  margin-bottom: 40px;
+  margin-top: 40px;
+  position: relative;
+  left: 60px;
 }
 
 .orangeInfo {
-    display: flex;
-    gap: 40px; 
-    margin: 30px 0;
+  display: flex;
+  gap: 40px;
+  margin: 30px 0;
 }
 
 .orangeInfo img {
-    width: 250px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    position: relative;
-    left: 60px;
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  position: relative;
+  left: 60px;
 }
 
 .orangeInfo div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .orangeContent {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 40px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40px;
+  margin-bottom: 30px;
 }
 
 .orangeInfo p {
-    font-weight: 300; 
-    color: #cfcfcf;
-    line-height: 1.8;
-    margin-bottom: 10px;
-    
+  font-weight: 300;
+  color: #cfcfcf;
+  line-height: 1.8;
+  margin-bottom: 10px;
 }
-.learn{
-    position: absolute;
-    bottom: 5px
+.learn {
+  position: absolute;
+  bottom: 5px;
 }
 
 .orangeInfo button {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 550;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 35px;
-    padding: 15px 25px;
-    border: none;
-    background: #ff6b00;
-    color: white;
-    cursor: pointer;
-    width: 150px;
-    transition: 0.3s;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 550;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 35px;
+  padding: 15px 25px;
+  border: none;
+  background: #ff6b00;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  transition: 0.3s;
 }
 
 .orangeInfo button:hover {
-    transform: translateY(-3px);
-    background: #ff7c1c;
+  transform: translateY(-3px);
+  background: #ff7c1c;
 }
 
-
 .orangeRight {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .orangeRight img {
-    width: 80%; 
-    max-width: 100%; 
-    border-radius: 10px;
-    height: 60vh;
-    position: relative;
-    left:60px;
-    
+  width: 80%;
+  max-width: 100%;
+  border-radius: 10px;
+  height: 60vh;
+  position: relative;
+  left: 60px;
 }
-
 
 /* PRODUCT SECTION*/
 .productSection {
@@ -417,10 +409,10 @@ header nav a {
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
-.benefit-par{
-    font-size: 30px;
-    padding-left:30px;
-    font-weight: 600;  
+.benefit-par {
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: 600;
 }
 
 .benefitsCard h3 {
@@ -431,7 +423,7 @@ header nav a {
   margin-bottom: 30px;
   border-bottom: 2px solid #e0e0e0;
   position: relative;
-  top:20px;
+  top: 20px;
 }
 
 .benefit-text {
@@ -441,7 +433,6 @@ header nav a {
   padding-bottom: 5px;
   margin-bottom: 25px;
   border-bottom: 2px solid #e0e0e0;
-  
 }
 
 .benefitButton {
@@ -464,87 +455,86 @@ header nav a {
 
 /*MENU BENEFIT*/
 .menuBenefit {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px; 
-    align-items: flex-start; 
-    padding: 80px 60px;
-    background: #1e2226;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: flex-start;
+  padding: 80px 60px;
+  background: #1e2226;
 }
 .menuImage {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .menuImage img {
-    width: 100%; 
-    max-width: 100%; 
-    border-radius: 10px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
 }
 .menuCenter {
-    width: 100%;
+  width: 100%;
 }
 
 .sectionTitle {
-    font-weight: 400;
-    font-size: 25px;
+  font-weight: 400;
+  font-size: 25px;
 }
 
 .menuCenter h3 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .menuItems {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 40px;
 }
 
 .menuItem {
-    text-align: center;
+  text-align: center;
 }
 
 .menuItem img {
-    width: 100%;
-    margin: 0 auto 20px;
+  width: 100%;
+  margin: 0 auto 20px;
 }
 
 .menuItem h4 {
-    font-weight: 700;
-    margin-bottom: 12px;
-    font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .menuItem p {
-    font-weight: 300;
-    color: #bdbdbd;
-    line-height: 1.6;
-    font-size: 13px;
+  font-weight: 300;
+  color: #bdbdbd;
+  line-height: 1.6;
+  font-size: 13px;
 }
 .openingHours {
-    height: 50vh;
-    width: 100%; 
-    border-left: 1px solid rgba(255,255,255,.15);
-    padding-left: 40px;
+  height: 50vh;
+  width: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  padding-left: 40px;
 }
 
 .openingHours h3 {
-    font-weight: 400;
-    margin-bottom: 30px;
-    font-size: 20px;
-    padding: 0 20px;
-
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 0 20px;
 }
 
 .hours {
-    font-weight: 300;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    font-size: 14px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
 }
 
 .quickLinksContainer {
@@ -553,19 +543,18 @@ header nav a {
 
 .footerNavLinks {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 10px;
   margin-top: 10px;
 }
 
 .footerNavLinks a {
-  color: white; 
+  color: white;
   text-decoration: none;
   font-family: "League Spartan", sans-serif;
   font-weight: 400;
   font-size: 13px;
   text-transform: uppercase;
-  
 }
 
 .footerNavLinks a:hover {
@@ -573,22 +562,19 @@ header nav a {
 }
 
 .quickLinks {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5%;
 }
-
-
 
 /*  RESPONSIVE MEDIA QUERIES (ALL SCREENS) */
 
 /* Tablets and Small Laptops */
 @media (max-width: 1024px) {
-
- .hero {
-    grid-template-columns: 1fr; 
+  .hero {
+    grid-template-columns: 1fr;
     padding: 160px 60px 60px 60px;
   }
 
@@ -614,62 +600,63 @@ header nav a {
   .navLinks {
     display: none;
   }
-    .navLinks.show {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 100px;
-        position: fixed;
-        top: 0; right: 0; bottom: 0;
-        width: 280px;
-        height: 90vh;
-        background-color: #1f262e;
-        z-index: 999;
-        gap: 25px;
-    }
+  .navLinks.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    height: 90vh;
+    background-color: #1f262e;
+    z-index: 999;
+    gap: 25px;
+  }
 
-    .navLinks.show header nav {
-        flex-direction: column;
-        align-items: center;
-    }
+  .navLinks.show header nav {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .navLinks.show nav {
+  .navLinks.show nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     gap: 10px;
   }
-   .navLinks.show nav a {
+  .navLinks.show nav a {
     width: 90%;
     text-align: center;
     padding: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
-     .navLinks.show .close {
-     display: block;
-     position: absolute;
-     top: 25px;
-     right: 25px;
-     background: none;
-     border: none;
-     color: white;
-     font-size: 30px;
-     cursor: pointer;
+  .navLinks.show .close {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
   }
 
-   .hero {
+  .hero {
     padding: 180px 40px 60px 40px;
-   
   }
 
   .signin {
     top: 55px;
     right: 5px;
   }
-  
+
   .heroText {
-    max-width: 100%; 
+    max-width: 100%;
   }
 
   .heroText .premium {
@@ -691,20 +678,19 @@ header nav a {
   }
 
   .orangeLeft {
-    order: 1; 
+    order: 1;
   }
 
   .orangeRight {
     order: 2;
-    width: 100%; 
-   
+    width: 100%;
   }
 
   .orangeInfo {
     flex-direction: column;
     align-items: flex-start;
   }
- 
+
   .productSection,
   .imagineSection {
     grid-template-columns: 1fr;
@@ -715,8 +701,8 @@ header nav a {
     grid-column: span 1;
   }
   .menuBenefit {
-        grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr;
+  }
 }
 
 /*Ultra-Small Smartphone Displays */
@@ -725,21 +711,19 @@ header nav a {
     padding: 0 20px;
   }
 
-    .hero {
+  .hero {
     padding-left: 20px;
     padding-right: 20px;
-  
   }
 
-   .signin {
+  .signin {
     top: 30px;
     right: 0px;
     padding: -5px;
   }
-  .orangeBenefit{
-     padding-left: 20px;
+  .orangeBenefit {
+    padding-left: 20px;
     padding-right: 20px;
     grid-column: span 1;
-  
   }
 }
