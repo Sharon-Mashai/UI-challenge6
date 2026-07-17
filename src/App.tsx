@@ -21,20 +21,31 @@ const App = () => {
 
       <Header />
 
-      <Hero />
+       {/* Home Section */}
+        <div id="home">
+          <Hero />
+        </div>
 
-      <OrangeBenefit />
+        {/* Menu Section */}
+        <div id="menu">
+          <ProductSection />
+        </div>
 
-      <ProductSection />
+        {/* Pages Section */}
+        <div id="pages">
+          <OrangeBenefit />
+        </div>
 
-      <ImagineSection />
+        {/* Blog Section */}
+        <div id="blog">
+          <ImagineSection />
+        </div>
 
-      <MenuBenefit />
-
-      
-
-
-    </div>
+        {/* Contact Us Section */}
+        <div id="contact">
+          <MenuBenefit />
+        </div>
+      </div>
   
     </>
 

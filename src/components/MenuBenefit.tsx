@@ -99,10 +99,16 @@ export const MenuBenefit = () => {
 
         <hr />
 
-        <p className="quickLinks">
-          QUICK LINKS
-         </p>
-
+          <div className="quickLinksContainer">
+          <p className="quickLinks">QUICK LINKS</p>
+          <div className="footerNavLinks">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#pages">Pages</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact Us</a>
+          </div>
+        </div>
       </div>
 
     </section>

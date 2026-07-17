@@ -26,11 +26,11 @@ export const Header = () => {
         <button className="close" onClick={toggleHumburger}><HugeiconsIcon icon={Cancel01Icon} /></button>
 
         <nav>
-          <a href="#">Home</a>
-          <a href="#">Menu</a>
-          <a href="#">Pages</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
+          <a href="#home" onClick={() => setOpen(false)}>Home</a>
+          <a href="#menu" onClick={() => setOpen(false)}>Menu</a>
+          <a href="#pages" onClick={() => setOpen(false)}>Pages</a>
+          <a href="#blog" onClick={() => setOpen(false)}>Blog</a>
+          <a href="#contact" onClick={() => setOpen(false)}>Contact Us</a>
         </nav>
 
         <div className="headerButtons">
